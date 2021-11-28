@@ -9,6 +9,7 @@
 <body>
 <div class="container">
   <h1>Student Management System </h1>
+  <hr>
   <h2> Save Student</h2>
   <form action="#" th:action="@{/saveStudent}" th:object="${student}"
         method="POST">
@@ -23,6 +24,8 @@
 
     <button type="submit" class="btn btn-info col-2">Save Student</button>
   </form>
+  <hr>
+  <a th:href = "@{/}"> Back to Course List</a>
 </div>
 </body>
 </html>

@@ -23,14 +23,14 @@
 
     <input type="text" th:field="*{studEmail}" class="form-control mb-4 col-4">
 
-    <div class="col-lg-3" >
+<!--    <div class="col-lg-3" >
 
       <br></br>
-      <li th:each="course : ${courses}"><input th:field="*{course}"
-                                               th:text="${course}" th:value="${course.id}"
-                                               type="checkbox"/></li>
+      <li th:each="course : ${allCourses}">
+        <input th:field="${course}"
+               th:text="${course}" th:value="${course.id}" type="checkbox"/></li>
       </td>
-    </div>
+    </div>-->
     <div class="col-lg-3" >
       <select class="form-control"  id="Select Course" th:field="*{courses}" multiple="multiple">
         <option value="">Select Course(s):</option>
@@ -72,7 +72,6 @@
       </select>
   </div>-->
   <hr>
-
   <a th:href = "@{/}"> Back to Course List</a>
 </div>
 </body>
