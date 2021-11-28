@@ -25,7 +25,8 @@
     <td th:text="${student.studName}"></td>
     <td th:text="${student.studEmail}"></td>
     <td> <a th:href="@{/showStudFormForUpdate/{id}(id=${student.sid})}" class="btn btn-primary">Update or Add Courses</a>
-      <a th:href="@{/deleteStudent/{id}(id=${student.sid})}" class="btn btn-danger">Delete</a>
+      <a th:href="@{/deleteStudent/{id}(id=${student.sid})}" class="btn btn-danger"
+         th:onclick="return confirm('Are you sure you would like to delete this student?')">Delete</a>
     <td></td><td></td>
   </tr>
   </tbody>
