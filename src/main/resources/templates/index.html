@@ -8,7 +8,6 @@
 </head>
 <body>
 <div class="container my-2">
-    <a th:href = "@{/showNewCourseForm}" class="btn btn-primary btn-sm mb-3"> Add Course </a>
 <h1>Course List </h1>
 <table border="1" class = "table table-striped table-responsive-md">
     <thead>
@@ -20,7 +19,7 @@
         <th></th><th></th> <!-- Creates border to separate table header section from update/delete buttons -->
     </tr>
     </thead>
-    <tbody>
+<!--    <tbody>-->
     <tr>
     <!-- $ dialect used for variables -->
     <tr th:each="course : ${listCourses}">
@@ -33,13 +32,13 @@
 <!--            <a th:href="@{/deleteCourse/{id}(id=${course.id})}" class="btn btn-danger">Delete</a></td>-->
         <td> <a th:href="@{/deleteCourse/{id}(id=${course.id})}" class="btn btn-danger">Delete</a></td>
     </tr>
-    </tbody>
+<!--    </tbody>-->
 </table>
     <div class="container my-2">
-        <br/>
+        <a th:href = "@{/showNewCourseForm}" class="btn btn-primary btn-sm mb-3">Add Course</a>
+        <br></br>
         <a th:href="@{/showNewStudentForm}" class="btn btn-primary">Add Student</a>
         <a th:href="@{/studentList}" class="btn btn-primary">Student List</a>
-        <br/>
     </div>
 </div>
 </body>
