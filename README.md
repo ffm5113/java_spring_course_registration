@@ -1,7 +1,8 @@
 # java_spring_course_registration
 Java Student Course Registration project utilizing Spring and Thymeleaf.
 
-Access the source code: 
+Access the source code:
+<br>
 <ul style=“list-style-type:circle”>
   <li>
     <a href="https://github.com/ffm5113/java_spring_course_registration/tree/master/src/main/resources/templates">Front End Source Code (HTML)</a>
