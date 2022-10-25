@@ -7,6 +7,6 @@ Access the source code here: <a href="https://github.com/ffm5113/java_spring_cou
     <a href="https://github.com/ffm5113/java_spring_course_registration/tree/master/src/main/java/com/example/ist412se_v11_7">Front End Source Code</a>
   </li>
   <li>
-    <a href="https://github.com/ffm5113/java_spring_course_registration/tree/master/src/main/java/com/example/ist412se_v11_7">Back End Source Code</a>
+    <a href="https://github.com/ffm5113/java_spring_course_registration/tree/master/src/main/resources/templates">Back End Source Code</a>
   </li>
 </ul>
