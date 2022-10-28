@@ -10,3 +10,5 @@ Access the source code:
     <a href="https://github.com/ffm5113/java_spring_course_registration/tree/master/src/main/java/com/example/ist412se_v11_7">Back End Source Code (Java)</a>
   </li>
 </ul>
+
+Copyright (c) 2022 ffm5113
